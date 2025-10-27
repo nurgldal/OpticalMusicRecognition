@@ -64,8 +64,6 @@ Sistem her kareyi işleyerek **nota çizgilerini ve sembollerini tespit eder**, 
 
 ## 📁 Project Structure | Proje Yapısı
 
-## 📁 Project Structure | Proje Yapısı
-
 | **File / Folder** | **Description (EN)** | **Açıklama (TR)** |
 |--------------------|----------------------|--------------------|
 | `OMR-Video/` | Main project directory | Projenin ana dizini |
