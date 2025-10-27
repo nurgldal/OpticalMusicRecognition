@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/nrgldl/OpticalMusicRecognition/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/test_camera.dir/all
+all: CMakeFiles/omr_demo.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/test_camera.dir/clean
+clean: CMakeFiles/omr_demo.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test_camera.dir
+# Target rules for target CMakeFiles/omr_demo.dir
 
 # All Build rule for target.
-CMakeFiles/test_camera.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_camera.dir/build.make CMakeFiles/test_camera.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_camera.dir/build.make CMakeFiles/test_camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nrgldl/OpticalMusicRecognition/build/CMakeFiles --progress-num=1,2 "Built target test_camera"
-.PHONY : CMakeFiles/test_camera.dir/all
+CMakeFiles/omr_demo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nrgldl/OpticalMusicRecognition/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target omr_demo"
+.PHONY : CMakeFiles/omr_demo.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test_camera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nrgldl/OpticalMusicRecognition/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_camera.dir/all
+CMakeFiles/omr_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nrgldl/OpticalMusicRecognition/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/omr_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nrgldl/OpticalMusicRecognition/build/CMakeFiles 0
-.PHONY : CMakeFiles/test_camera.dir/rule
+.PHONY : CMakeFiles/omr_demo.dir/rule
 
 # Convenience name for target.
-test_camera: CMakeFiles/test_camera.dir/rule
-.PHONY : test_camera
+omr_demo: CMakeFiles/omr_demo.dir/rule
+.PHONY : omr_demo
 
 # clean rule for target.
-CMakeFiles/test_camera.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_camera.dir/build.make CMakeFiles/test_camera.dir/clean
-.PHONY : CMakeFiles/test_camera.dir/clean
+CMakeFiles/omr_demo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/clean
+.PHONY : CMakeFiles/omr_demo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -108,5 +108,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/test_camera.dir/DependInfo.cmake"
+  "CMakeFiles/omr_demo.dir/DependInfo.cmake"
   )

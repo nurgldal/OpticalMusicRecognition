@@ -1,4 +1,4 @@
-CMakeFiles/test_camera.dir/src/camera_input.cpp.o: \
+CMakeFiles/omr_demo.dir/src/camera_input.cpp.o: \
  /home/nrgldl/OpticalMusicRecognition/src/camera_input.cpp \
  /usr/include/stdc-predef.h /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
@@ -365,4 +365,7 @@ CMakeFiles/test_camera.dir/src/camera_input.cpp.o: \
  /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
  /usr/local/include/opencv4/opencv2/video.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
- /usr/local/include/opencv4/opencv2/video/background_segm.hpp
+ /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
+ /home/nrgldl/OpticalMusicRecognition/include/preprocessing.h \
+ /home/nrgldl/OpticalMusicRecognition/include/staff_detection.h \
+ /home/nrgldl/OpticalMusicRecognition/include/note_detection.h

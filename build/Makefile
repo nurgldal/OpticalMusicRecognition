@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test_camera
+# Target rules for targets named omr_demo
 
 # Build rule for target.
-test_camera: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_camera
-.PHONY : test_camera
+omr_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 omr_demo
+.PHONY : omr_demo
 
 # fast build rule for target.
-test_camera/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_camera.dir/build.make CMakeFiles/test_camera.dir/build
-.PHONY : test_camera/fast
+omr_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/build
+.PHONY : omr_demo/fast
 
 src/camera_input.o: src/camera_input.cpp.o
 .PHONY : src/camera_input.o
 
 # target to build an object file
 src/camera_input.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_camera.dir/build.make CMakeFiles/test_camera.dir/src/camera_input.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/camera_input.cpp.o
 .PHONY : src/camera_input.cpp.o
 
 src/camera_input.i: src/camera_input.cpp.i
@@ -142,7 +142,7 @@ src/camera_input.i: src/camera_input.cpp.i
 
 # target to preprocess a source file
 src/camera_input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_camera.dir/build.make CMakeFiles/test_camera.dir/src/camera_input.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/camera_input.cpp.i
 .PHONY : src/camera_input.cpp.i
 
 src/camera_input.s: src/camera_input.cpp.s
@@ -150,8 +150,80 @@ src/camera_input.s: src/camera_input.cpp.s
 
 # target to generate assembly for a file
 src/camera_input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_camera.dir/build.make CMakeFiles/test_camera.dir/src/camera_input.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/camera_input.cpp.s
 .PHONY : src/camera_input.cpp.s
+
+src/note_detection.o: src/note_detection.cpp.o
+.PHONY : src/note_detection.o
+
+# target to build an object file
+src/note_detection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/note_detection.cpp.o
+.PHONY : src/note_detection.cpp.o
+
+src/note_detection.i: src/note_detection.cpp.i
+.PHONY : src/note_detection.i
+
+# target to preprocess a source file
+src/note_detection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/note_detection.cpp.i
+.PHONY : src/note_detection.cpp.i
+
+src/note_detection.s: src/note_detection.cpp.s
+.PHONY : src/note_detection.s
+
+# target to generate assembly for a file
+src/note_detection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/note_detection.cpp.s
+.PHONY : src/note_detection.cpp.s
+
+src/preprocessing.o: src/preprocessing.cpp.o
+.PHONY : src/preprocessing.o
+
+# target to build an object file
+src/preprocessing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/preprocessing.cpp.o
+.PHONY : src/preprocessing.cpp.o
+
+src/preprocessing.i: src/preprocessing.cpp.i
+.PHONY : src/preprocessing.i
+
+# target to preprocess a source file
+src/preprocessing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/preprocessing.cpp.i
+.PHONY : src/preprocessing.cpp.i
+
+src/preprocessing.s: src/preprocessing.cpp.s
+.PHONY : src/preprocessing.s
+
+# target to generate assembly for a file
+src/preprocessing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/preprocessing.cpp.s
+.PHONY : src/preprocessing.cpp.s
+
+src/staff_detection.o: src/staff_detection.cpp.o
+.PHONY : src/staff_detection.o
+
+# target to build an object file
+src/staff_detection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/staff_detection.cpp.o
+.PHONY : src/staff_detection.cpp.o
+
+src/staff_detection.i: src/staff_detection.cpp.i
+.PHONY : src/staff_detection.i
+
+# target to preprocess a source file
+src/staff_detection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/staff_detection.cpp.i
+.PHONY : src/staff_detection.cpp.i
+
+src/staff_detection.s: src/staff_detection.cpp.s
+.PHONY : src/staff_detection.s
+
+# target to generate assembly for a file
+src/staff_detection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/staff_detection.cpp.s
+.PHONY : src/staff_detection.cpp.s
 
 # Help Target
 help:
@@ -161,10 +233,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test_camera"
+	@echo "... omr_demo"
 	@echo "... src/camera_input.o"
 	@echo "... src/camera_input.i"
 	@echo "... src/camera_input.s"
+	@echo "... src/note_detection.o"
+	@echo "... src/note_detection.i"
+	@echo "... src/note_detection.s"
+	@echo "... src/preprocessing.o"
+	@echo "... src/preprocessing.i"
+	@echo "... src/preprocessing.s"
+	@echo "... src/staff_detection.o"
+	@echo "... src/staff_detection.i"
+	@echo "... src/staff_detection.s"
 .PHONY : help
 
 

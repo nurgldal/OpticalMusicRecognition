@@ -13,10 +13,14 @@ include_directories(
     include
 )
 
-add_executable(test_camera
+
+add_executable(omr_demo
     src/camera_input.cpp
+    src/preprocessing.cpp
+    src/staff_detection.cpp
+    src/note_detection.cpp
 )
 
-target_link_libraries(test_camera
+target_link_libraries(omr_demo
     ${OpenCV_LIBS}
 )
