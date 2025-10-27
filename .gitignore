@@ -1,0 +1,23 @@
+# Build outputs
+build/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Binary executables
+*.exe
+*.out
+*.o
+
+# CMake cache and temp
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
