@@ -1,0 +1,3 @@
+/home/nrgldl/OpticalMusicRecognition/build/CMakeFiles/test_camera.dir
+/home/nrgldl/OpticalMusicRecognition/build/CMakeFiles/edit_cache.dir
+/home/nrgldl/OpticalMusicRecognition/build/CMakeFiles/rebuild_cache.dir
