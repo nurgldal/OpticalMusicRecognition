@@ -81,12 +81,12 @@ clean: CMakeFiles/omr_demo.dir/clean
 CMakeFiles/omr_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nrgldl/OpticalMusicRecognition/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target omr_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nrgldl/OpticalMusicRecognition/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target omr_demo"
 .PHONY : CMakeFiles/omr_demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/omr_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nrgldl/OpticalMusicRecognition/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nrgldl/OpticalMusicRecognition/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/omr_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nrgldl/OpticalMusicRecognition/build/CMakeFiles 0
 .PHONY : CMakeFiles/omr_demo.dir/rule

@@ -4,6 +4,6 @@
 #include <opencv2/opencv.hpp>
 #include <vector>
 
-std::vector<cv::Rect> detectNotes(const cv::Mat& binary, cv::Mat& output);
+std::vector<cv::Rect> detectNotes(const cv::Mat& binaryNoStaff, cv::Mat& output);
 
-#endif // NOTE_DETECTION_H
+#endif 

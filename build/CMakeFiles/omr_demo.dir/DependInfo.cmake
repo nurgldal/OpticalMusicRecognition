@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/nrgldl/OpticalMusicRecognition/src/audio_gen.cpp" "CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o" "gcc" "CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o.d"
   "/home/nrgldl/OpticalMusicRecognition/src/camera_input.cpp" "CMakeFiles/omr_demo.dir/src/camera_input.cpp.o" "gcc" "CMakeFiles/omr_demo.dir/src/camera_input.cpp.o.d"
+  "/home/nrgldl/OpticalMusicRecognition/src/file_writer.cpp" "CMakeFiles/omr_demo.dir/src/file_writer.cpp.o" "gcc" "CMakeFiles/omr_demo.dir/src/file_writer.cpp.o.d"
   "/home/nrgldl/OpticalMusicRecognition/src/note_detection.cpp" "CMakeFiles/omr_demo.dir/src/note_detection.cpp.o" "gcc" "CMakeFiles/omr_demo.dir/src/note_detection.cpp.o.d"
   "/home/nrgldl/OpticalMusicRecognition/src/preprocessing.cpp" "CMakeFiles/omr_demo.dir/src/preprocessing.cpp.o" "gcc" "CMakeFiles/omr_demo.dir/src/preprocessing.cpp.o.d"
   "/home/nrgldl/OpticalMusicRecognition/src/staff_detection.cpp" "CMakeFiles/omr_demo.dir/src/staff_detection.cpp.o" "gcc" "CMakeFiles/omr_demo.dir/src/staff_detection.cpp.o.d"

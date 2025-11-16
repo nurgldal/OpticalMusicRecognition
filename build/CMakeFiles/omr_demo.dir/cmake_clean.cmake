@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o"
+  "CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o.d"
   "CMakeFiles/omr_demo.dir/src/camera_input.cpp.o"
   "CMakeFiles/omr_demo.dir/src/camera_input.cpp.o.d"
+  "CMakeFiles/omr_demo.dir/src/file_writer.cpp.o"
+  "CMakeFiles/omr_demo.dir/src/file_writer.cpp.o.d"
   "CMakeFiles/omr_demo.dir/src/note_detection.cpp.o"
   "CMakeFiles/omr_demo.dir/src/note_detection.cpp.o.d"
   "CMakeFiles/omr_demo.dir/src/preprocessing.cpp.o"

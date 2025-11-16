@@ -13,18 +13,41 @@ Mat preprocessImage(const Mat& input) {
         return binary;
     }
 
-    // 1️⃣ Grayscale
+    
     cvtColor(input, gray, COLOR_BGR2GRAY);
-    imshow("1 - Grayscale", gray);
 
-    // 2️⃣ Noise reduction (Gaussian Blur)
+    
     GaussianBlur(gray, blurred, Size(5, 5), 0);
-    imshow("2 - Blurred", blurred);
 
-    // 3️⃣ Threshold (Binary Image)
-    adaptiveThreshold(blurred, binary, 255, ADAPTIVE_THRESH_MEAN_C, THRESH_BINARY_INV, 15, 8);
-    imshow("3 - Binary (Thresholded)", binary);
+    
+    adaptiveThreshold(
+        blurred,
+        binary,
+        255,
+        ADAPTIVE_THRESH_MEAN_C,
+        THRESH_BINARY_INV,
+        15,
+        8
+    );
 
+    
+
+    
+    Mat grayBGR, blurredBGR, binaryBGR;
+    cvtColor(gray, grayBGR, COLOR_GRAY2BGR);
+    cvtColor(blurred, blurredBGR, COLOR_GRAY2BGR);
+    cvtColor(binary, binaryBGR, COLOR_GRAY2BGR);
+
+    
+    Mat debugRow;
+    hconcat(vector<Mat>{grayBGR, blurredBGR, binaryBGR}, debugRow);
+
+    namedWindow("Preprocessing Pipeline", WINDOW_NORMAL);
+    imshow("Preprocessing Pipeline", debugRow);
+    moveWindow("Preprocessing Pipeline", 30, 20);
+
+    cout << "🧪 Debug View: Grayscale | Blurred | Binary" << endl;
     cout << "✅ Preprocessing completed successfully." << endl;
+
     return binary;
 }

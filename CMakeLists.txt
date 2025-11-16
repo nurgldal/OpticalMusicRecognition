@@ -11,6 +11,7 @@ include_directories(
     ${OpenCV_INCLUDE_DIRS}
     src
     include
+    
 )
 
 
@@ -19,6 +20,8 @@ add_executable(omr_demo
     src/preprocessing.cpp
     src/staff_detection.cpp
     src/note_detection.cpp
+    src/file_writer.cpp
+    src/audio_gen.cpp
 )
 
 target_link_libraries(omr_demo
