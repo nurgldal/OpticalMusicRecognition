@@ -75,13 +75,11 @@ Sistem her kareyi işleyerek **nota çizgilerini ve sembollerini tespit eder**, 
 | │ ├── `note_detection.cpp` | Detects contours & recognizes note pitch | Nota konturlarını ve perdesini tanır |
 | │ ├── `audio_gen.cpp` | Generates sound using PortAudio | PortAudio ile ses üretimi yapar |
 | │ ├── `file_writer.cpp` | Writes notes to `detected_notes.txt` | Tanınan notaları `detected_notes.txt` dosyasına yazar |
-| │ └── `utils.cpp` | Contains helper functions | Yardımcı fonksiyonları içerir |
 | ├── `include/` | Header files directory | Başlık (header) dosyalarının bulunduğu klasör |
 | │ ├── `camera_input.h` | Camera function declarations | Kamera işlevlerinin bildirimi |
 | │ ├── `audio_gen.h` | Audio generation functions | Ses üretimi fonksiyonları |
 | │ ├── `note_utils.h` | Note recognition helpers | Nota tanıma yardımcıları |
 | │ ├── `file_writer.h` | File writing functions | Dosya yazma işlevleri |
-| │ └── `config.h` | Constants and settings | Sabitler ve yapılandırma ayarları |
 | ├── `output/` | Output folder | Çıktı dosyalarının tutulduğu klasör |
 | │ ├── `detected_notes.txt` | Text output of recognized notes | Tanınan notaların metin çıktısı |
 | │ ├── `melody.mp3` | Generated melody file | Oluşturulan melodinin ses dosyası |
