@@ -125,12 +125,42 @@ CMakeFiles/omr_demo.dir/src/note_detection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/omr_demo.dir/src/note_detection.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nrgldl/OpticalMusicRecognition/src/note_detection.cpp -o CMakeFiles/omr_demo.dir/src/note_detection.cpp.s
 
+CMakeFiles/omr_demo.dir/src/file_writer.cpp.o: CMakeFiles/omr_demo.dir/flags.make
+CMakeFiles/omr_demo.dir/src/file_writer.cpp.o: /home/nrgldl/OpticalMusicRecognition/src/file_writer.cpp
+CMakeFiles/omr_demo.dir/src/file_writer.cpp.o: CMakeFiles/omr_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nrgldl/OpticalMusicRecognition/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/omr_demo.dir/src/file_writer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/omr_demo.dir/src/file_writer.cpp.o -MF CMakeFiles/omr_demo.dir/src/file_writer.cpp.o.d -o CMakeFiles/omr_demo.dir/src/file_writer.cpp.o -c /home/nrgldl/OpticalMusicRecognition/src/file_writer.cpp
+
+CMakeFiles/omr_demo.dir/src/file_writer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/omr_demo.dir/src/file_writer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nrgldl/OpticalMusicRecognition/src/file_writer.cpp > CMakeFiles/omr_demo.dir/src/file_writer.cpp.i
+
+CMakeFiles/omr_demo.dir/src/file_writer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/omr_demo.dir/src/file_writer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nrgldl/OpticalMusicRecognition/src/file_writer.cpp -o CMakeFiles/omr_demo.dir/src/file_writer.cpp.s
+
+CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o: CMakeFiles/omr_demo.dir/flags.make
+CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o: /home/nrgldl/OpticalMusicRecognition/src/audio_gen.cpp
+CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o: CMakeFiles/omr_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nrgldl/OpticalMusicRecognition/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o -MF CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o.d -o CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o -c /home/nrgldl/OpticalMusicRecognition/src/audio_gen.cpp
+
+CMakeFiles/omr_demo.dir/src/audio_gen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/omr_demo.dir/src/audio_gen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nrgldl/OpticalMusicRecognition/src/audio_gen.cpp > CMakeFiles/omr_demo.dir/src/audio_gen.cpp.i
+
+CMakeFiles/omr_demo.dir/src/audio_gen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/omr_demo.dir/src/audio_gen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nrgldl/OpticalMusicRecognition/src/audio_gen.cpp -o CMakeFiles/omr_demo.dir/src/audio_gen.cpp.s
+
 # Object files for target omr_demo
 omr_demo_OBJECTS = \
 "CMakeFiles/omr_demo.dir/src/camera_input.cpp.o" \
 "CMakeFiles/omr_demo.dir/src/preprocessing.cpp.o" \
 "CMakeFiles/omr_demo.dir/src/staff_detection.cpp.o" \
-"CMakeFiles/omr_demo.dir/src/note_detection.cpp.o"
+"CMakeFiles/omr_demo.dir/src/note_detection.cpp.o" \
+"CMakeFiles/omr_demo.dir/src/file_writer.cpp.o" \
+"CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o"
 
 # External object files for target omr_demo
 omr_demo_EXTERNAL_OBJECTS =
@@ -139,6 +169,8 @@ omr_demo: CMakeFiles/omr_demo.dir/src/camera_input.cpp.o
 omr_demo: CMakeFiles/omr_demo.dir/src/preprocessing.cpp.o
 omr_demo: CMakeFiles/omr_demo.dir/src/staff_detection.cpp.o
 omr_demo: CMakeFiles/omr_demo.dir/src/note_detection.cpp.o
+omr_demo: CMakeFiles/omr_demo.dir/src/file_writer.cpp.o
+omr_demo: CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o
 omr_demo: CMakeFiles/omr_demo.dir/build.make
 omr_demo: /usr/local/lib/libopencv_stitching.so.4.13.0
 omr_demo: /usr/local/lib/libopencv_aruco.so.4.13.0
@@ -193,7 +225,7 @@ omr_demo: /usr/local/lib/libopencv_photo.so.4.13.0
 omr_demo: /usr/local/lib/libopencv_imgproc.so.4.13.0
 omr_demo: /usr/local/lib/libopencv_core.so.4.13.0
 omr_demo: CMakeFiles/omr_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nrgldl/OpticalMusicRecognition/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable omr_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nrgldl/OpticalMusicRecognition/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable omr_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/omr_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

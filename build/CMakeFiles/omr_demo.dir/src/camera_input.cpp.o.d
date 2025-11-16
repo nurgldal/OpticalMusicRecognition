@@ -368,4 +368,6 @@ CMakeFiles/omr_demo.dir/src/camera_input.cpp.o: \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
  /home/nrgldl/OpticalMusicRecognition/include/preprocessing.h \
  /home/nrgldl/OpticalMusicRecognition/include/staff_detection.h \
- /home/nrgldl/OpticalMusicRecognition/include/note_detection.h
+ /home/nrgldl/OpticalMusicRecognition/include/note_detection.h \
+ /home/nrgldl/OpticalMusicRecognition/include/file_writer.h \
+ /home/nrgldl/OpticalMusicRecognition/include/audio_gen.h

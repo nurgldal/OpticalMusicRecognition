@@ -129,6 +129,30 @@ omr_demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/build
 .PHONY : omr_demo/fast
 
+src/audio_gen.o: src/audio_gen.cpp.o
+.PHONY : src/audio_gen.o
+
+# target to build an object file
+src/audio_gen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/audio_gen.cpp.o
+.PHONY : src/audio_gen.cpp.o
+
+src/audio_gen.i: src/audio_gen.cpp.i
+.PHONY : src/audio_gen.i
+
+# target to preprocess a source file
+src/audio_gen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/audio_gen.cpp.i
+.PHONY : src/audio_gen.cpp.i
+
+src/audio_gen.s: src/audio_gen.cpp.s
+.PHONY : src/audio_gen.s
+
+# target to generate assembly for a file
+src/audio_gen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/audio_gen.cpp.s
+.PHONY : src/audio_gen.cpp.s
+
 src/camera_input.o: src/camera_input.cpp.o
 .PHONY : src/camera_input.o
 
@@ -152,6 +176,30 @@ src/camera_input.s: src/camera_input.cpp.s
 src/camera_input.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/camera_input.cpp.s
 .PHONY : src/camera_input.cpp.s
+
+src/file_writer.o: src/file_writer.cpp.o
+.PHONY : src/file_writer.o
+
+# target to build an object file
+src/file_writer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/file_writer.cpp.o
+.PHONY : src/file_writer.cpp.o
+
+src/file_writer.i: src/file_writer.cpp.i
+.PHONY : src/file_writer.i
+
+# target to preprocess a source file
+src/file_writer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/file_writer.cpp.i
+.PHONY : src/file_writer.cpp.i
+
+src/file_writer.s: src/file_writer.cpp.s
+.PHONY : src/file_writer.s
+
+# target to generate assembly for a file
+src/file_writer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/omr_demo.dir/build.make CMakeFiles/omr_demo.dir/src/file_writer.cpp.s
+.PHONY : src/file_writer.cpp.s
 
 src/note_detection.o: src/note_detection.cpp.o
 .PHONY : src/note_detection.o
@@ -234,9 +282,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... omr_demo"
+	@echo "... src/audio_gen.o"
+	@echo "... src/audio_gen.i"
+	@echo "... src/audio_gen.s"
 	@echo "... src/camera_input.o"
 	@echo "... src/camera_input.i"
 	@echo "... src/camera_input.s"
+	@echo "... src/file_writer.o"
+	@echo "... src/file_writer.i"
+	@echo "... src/file_writer.s"
 	@echo "... src/note_detection.o"
 	@echo "... src/note_detection.i"
 	@echo "... src/note_detection.s"
