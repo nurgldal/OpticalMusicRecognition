@@ -68,7 +68,6 @@ Sistem her kareyi işleyerek **nota çizgilerini ve sembollerini tespit eder**, 
 |--------------------|----------------------|--------------------|
 | `OpticalMusicRecognition/` | Main project directory | Projenin ana dizini |
 | ├── `src/` | Contains all source files | Tüm kaynak kod dosyaları |
-| │ ├── `main.cpp` | Entry point of the project | Projenin giriş noktası |
 | │ ├── `camera_input.cpp` | Captures and processes video frames | Kameradan video karelerini alır ve işler |
 | │ ├── `preprocessing.cpp` | Grayscale & perspective correction | Görüntü ön işleme ve perspektif düzeltme |
 | │ ├── `staff_detection.cpp` | Detects staff lines | Nota çizgilerini tespit eder |
