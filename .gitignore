@@ -1,6 +1,6 @@
 # Build outputs
 build/
-ouput/
+output/
 
 
 # Temporary files
@@ -23,3 +23,11 @@ CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
+
+# IDE settings
+.vscode/
+.idea/
+
+# Audio outputs
+output/*.wav
+output/*.mp3
