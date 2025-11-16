@@ -66,7 +66,7 @@ Sistem her kareyi işleyerek **nota çizgilerini ve sembollerini tespit eder**, 
 
 | **File / Folder** | **Description (EN)** | **Açıklama (TR)** |
 |--------------------|----------------------|--------------------|
-| `OMR-Video/` | Main project directory | Projenin ana dizini |
+| `OpticalMusicRecognition/` | Main project directory | Projenin ana dizini |
 | ├── `src/` | Contains all source files | Tüm kaynak kod dosyaları |
 | │ ├── `main.cpp` | Entry point of the project | Projenin giriş noktası |
 | │ ├── `camera_input.cpp` | Captures and processes video frames | Kameradan video karelerini alır ve işler |
