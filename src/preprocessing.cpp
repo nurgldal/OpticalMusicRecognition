@@ -46,8 +46,9 @@ Mat preprocessImage(const Mat& input) {
     imshow("Preprocessing Pipeline", debugRow);
     moveWindow("Preprocessing Pipeline", 30, 20);
 
-    cout << "🧪 Debug View: Grayscale | Blurred | Binary" << endl;
-    cout << "✅ Preprocessing completed successfully." << endl;
+    // 30 FPS'de her karede yorum yazdığı için çok geveze bir terminal oluyor
+    // cout << "Debug View: Grayscale | Blurred | Binary" << endl;
+    // cout << "✅ Preprocessing completed successfully." << endl;
 
     return binary;
 }

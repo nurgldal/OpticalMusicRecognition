@@ -16,6 +16,7 @@ include_directories(
 
 
 add_executable(omr_demo
+    src/main.cpp    
     src/camera_input.cpp
     src/preprocessing.cpp
     src/staff_detection.cpp

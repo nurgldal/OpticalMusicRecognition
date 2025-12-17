@@ -132,10 +132,11 @@ vector<int> detectStaffLinePositions(const Mat& binary) {
     }
     staffYs.push_back(sum / count);
 
-    cout << "Staff line groups detected: " << staffYs.size() << endl;
-    cout << "Staff line y-positions: ";
-    for (int y : staffYs) cout << y << " ";
-    cout << endl;
+    // 30 FPS'de her karede yorum yazdığı için çok geveze bir terminal oluyor
+    //cout << "Staff line groups detected: " << staffYs.size() << endl;
+    //cout << "Staff line y-positions: ";
+    //for (int y : staffYs) cout << y << " ";
+    //cout << endl;
 
     return staffYs;
 }
