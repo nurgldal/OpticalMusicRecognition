@@ -16,12 +16,16 @@ include_directories(
 
 
 add_executable(omr_demo
-    src/camera_input.cpp
+
+    src/main_file.cpp
+    src/omr_pipeline.cpp
     src/preprocessing.cpp
     src/staff_detection.cpp
     src/note_detection.cpp
     src/file_writer.cpp
     src/audio_gen.cpp
+    src/perspective.cpp
+    
 )
 
 target_link_libraries(omr_demo
